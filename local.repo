@@ -1,0 +1,13 @@
+[localiso]
+name=Local ISO mount
+baseurl=http://192.168.122.1/base/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY
+gpgcheck=1 
+enabled=1 
+
+[localepel]
+name=Local EPEL clone
+baseurl=http://192.168.122.1/epel/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY
+gpgcheck=0 
+enabled=1 
